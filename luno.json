@@ -1,0 +1,40 @@
+{
+  "name": "Bunny3d",
+  "version": "1.0.0",
+  "description": "Three.js 3D viewport sample app — drop in a .glb, tweak lighting, and build on top of it. (Forked from Basic3D)",
+  "type": "luno-web-app",
+  "mainClass": "Bunny3d",
+  "entrypoint": {
+    "file": "Bunny3d.js",
+    "class": "Bunny3d",
+    "method": "run"
+  },
+  "main": [
+    "ModelLoader.js",
+    "Simple3dShapes.js",
+    "Bunny3d.js"
+  ],
+  "library": [
+    "DomBasics.js",
+    "UITools.js",
+    "ThreeJSLoader.js"
+  ],
+  "styles": [
+    "basic3d.css"
+  ],
+  "processedCountSinceCheckpoint": 4,
+  "changedMethods": {
+    "Bunny3d/luno.json": "2026-08-30T13:19:24.327Z",
+    "Library/ThreeJSLoader.js": "2026-08-30T18:28:04.452Z",
+    "Bunny3d/Simple3dShapes.js": "2026-08-30T13:19:24.327Z",
+    "Bunny3d/ModelLoader.js": "2026-08-30T13:19:24.327Z",
+    "Bunny3d/Bunny3d.js": "2026-08-30T18:28:04.452Z",
+    "LunoParser/protocol_test.js": "2026-09-27T19:18:36.687Z",
+    "Simple3dShapes.js": "2026-10-26T05:53:09.731Z",
+    "src/Simple3dShapes.js": "2026-10-26T05:53:09.731Z",
+    "Bunny3d.js": "2026-10-26T05:53:09.731Z",
+    "src/Bunny3d.js": "2026-10-26T05:53:09.731Z"
+  },
+  "lastCheckpointTime": "2026-10-26T05:48:14.001Z",
+  "pendingCheckpointDescription": "Clean fork initialized from Basic3D"
+}
